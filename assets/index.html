@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <link rel="stylesheet" href="assets_home/css/style.css" />
+    <link rel="stylesheet" href="assets_home/css/animate.css" />
+    <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:500|BioRhyme|Cairo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="sketch" style="z-index: -1;"></div>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <img class="img-fluid" src="assets_home/images/csi_logo.png" alt="logo" style="width: 60px;height: 60px;" usemap="#workmap">
+                <map name="workmap">
+                <area shape="circle" coords="30,30,30" alt="CSI_logo" href="index.html">
+                </map>
+                <ul class="navbar-nav" style="margin-left: auto;">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item "><a class="nav-link" href="port1e.html"> WORKSHOPS </a></li>
+                    <li class="nav-item "><a class="nav-link" href="councilpage.html">COUNCIL</a></li>
+                    <li class="nav-item "><a class="nav-link" href="contact.html">REACH US</a></li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="register.html">
+                            <i class="fa fa-user-plus"></i> Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid heading">
+        <div id="text" data-aos="zoom-in-up"></div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row text-center" style="background: url(assets_home/images/geometric-leaves.png); padding-bottom: 50px;">
+            <div class="col-12" id="col_mission">
+                <h2 class="text-center" data-aos="fade-down" id="mission_text">OUR MISSION</h2>
+                <hr style="background-color: dodgerblue;">
+            </div>
+            <div class="col-md-4 sm-12">
+
+                <div class="card text-center cardmission" data-aos="fade-right" style="background-color: rgb(248, 248, 248);"><img class="card-img-top imgknow" src="assets_home/images/knowledge.jpg" alt="">
+                    <div class="card-body">
+                        <h5> Knowledge <br/>
+                            <hr>
+                        </h5>
+                        <p class="card-text"> Get to learn courses not covered in the <br> boring syllabus!! </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 sm-12">
+
+                <div class="card text-center cardmission" data-aos="fade-up" style="background-color: rgb(248, 248, 248);"><img class="card-img-top imgknow" src="assets_home/images/technical.jpg" alt="">
+                    <div class="card-body">
+                        <h5> Technical Skills <br/>
+                            <hr>
+                        </h5>
+                        <p class="card-text"> Enhance your technical knowledge to <br> a whole new level.. </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 sm-12">
+
+                <div class="card text-center cardmission" data-aos="fade-left" style="background-color: rgb(248, 248, 248);"><img class="card-img-top imgknow" src="assets_home/images/certi.jpg" alt="">
+                    <div class="card-body">
+                        <h5> Certified Workshops <br/>
+                            <hr>
+                        </h5>
+                        <p class="card-text">Learn under the expertise of <br> experienced professionals. </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid about">
+        <div class="row" id="row_about" style="background: url(assets_home/images/geometric-leaves.png);">
+            <div class="col-3 " id="col_about" style=" padding-top: 40px;">
+                <h2 data-aos="fade-right" id="mission_text">ABOUT CSI-VESIT</h2>
+                <hr style="background-color: darkslategrey;">
+            </div>
+            <div class="col-9 text-center" id="col_about_r" style="background-color: lightgray; ">
+                <p data-aos="fade-left" style="font-size: large; padding: 20px;">Growing in an environment supported by <strong>integrity</strong> ,inculcating a passion of development was always the motto of CSI Vesit, <br> providing various platforms for students in the form of Editor, Technical,Web Editor, Operational, Public
+                    Relations <br> and then binding them together to get a high functional output in terms of <strong> productivity and consistency.</strong> <br> The society conducts <strong>various competitions</strong> to test the mettle of the participants
+                    in various fields; from uplifting their technical knowledge <br> through Hackathons to checking their management skills and general knowledge through events like Business Quiz and Cricomania. <br> We at CSI-VESIT conduct a plethora
+                    of <strong>technical workshops</strong> like Python, WordPress, PHP, etc for the benefit of the students.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid gtco-testimonials" style="background: url(assets_home/images/geometric-leaves.png);">
+        <div class="container-fluid" style="padding-bottom: 30px;">
+            <h2 data-aos="zoom-in" style=" background-color: lightblue; border-radius: 25px; padding: 20px ;  box-shadow: 5px 10px 8px #888888;">What students say about us.</h2>
+            <hr>
+            <div class="owl-carousel owl-carousel1 owl-theme" data-aos="fade-left">
+                <div>
+                    <div class="card text-center" style=" box-shadow: 5px 10px 8px #888888;"><img class="card-img-top" src="assets_home\images\d7b.jpeg" alt="">
+                        <div class="card-body">
+                            <h5>Riteshsingh Kadakoti <br/>
+                                <span> D7B</span></h5>
+                            <p class="card-text">"CSI is indeed the best amongst all the societies!!!" </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center" style=" box-shadow: 5px 10px 8px #888888;"><img class="card-img-top" src="assets_home\images\d7a.jpg" alt="">
+                        <div class="card-body">
+                            <h5>Jaishree Golani<br/>
+                                <span> D7B</span></h5>
+                            <p class="card-text">"The Workshops held here are very informative and helpful for my curricular studies" </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center" style=" box-shadow: 5px 10px 8px #888888;"><img class="card-img-top" src="assets_home\images\d7c.jpg" alt="">
+                        <div class="card-body">
+                            <h5>Mayank Motwani<br/>
+                                <span> D7C</span></h5>
+                            <p class="card-text">"The Events conducted are amazing and worth your time! " </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center" style=" box-shadow: 5px 10px 8px #888888;"><img class="card-img-top" src="assets_home\images\d10.jpg" alt="">
+                        <div class="card-body">
+                            <h5>Nagesh Nayak<br/>
+                                <span> D10 </span></h5>
+                            <p class="card-text">"I loved the Cricomania and LAN gaming Events" </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <section id="contact" class="dark-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <h2>Contact Us</h2>
+                        <hr style="background-color:lightblue;">
+                        <p>If you have some Questions or need Help! Please Contact Us!<br>Feel free to clear any Queries.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 sm-12">
+                    <div class="section-text" style="padding-left: 80px;">
+                        <h4>Our Address</h4>
+                        <p>Hashu Adwani Memorial Complex, Collector's Colony, Chembur, Mumbai, Maharashtra 400074</p>
+                        <p><i class="fa fa-phone"></i> Jatin Bhagchandani 9619447077</p>
+                        <p><i class="fa fa-envelope"></i> csi.vesit@ves.ac.in</p>
+                    </div>
+                </div>
+                <div class="col-md-3 sm-12">
+                    <div class="section-text" style="padding-left: 80px;">
+                        <h4>Working Hours</h4>
+                        <p><i class="fa fa-clock-o"></i> <span class="day">Weekdays:</span><span>8am to 5pm</span></p>
+                        <p><i class="fa fa-clock-o"></i> <span class="day">Saturday:</span><span>8am to 2pm</span></p>
+                        <p><i class="fa fa-clock-o"></i> <span class="day">Sunday:</span><span>Closed</span></p>
+                    </div>
+                </div>
+                <div class="col-md-6 sm-12" style="padding-left: 40px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.4079307094535!2d72.88702481455108!3d19.045793987105224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8add9569a29%3A0xb7ad04bf9a389df7!2sVivekanand%20Education%20Society&#39;s%20Institute%20Of%20Technology!5e0!3m2!1sen!2sin!4v1583653746164!5m2!1sen!2sin"
+                        width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col">
+                <h5 style="padding-top: 7px ;"><i class="fa fa-copyright"></i>CSI-VESIT 2020</h5>
+            </div>
+            <div class="col">
+                <div class="text-center center-block">
+
+                    <a href="https://www.facebook.com/csivesit/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                    <a href="https://twitter.com/csi_vesit?lang=en"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                    <a href="https://www.instagram.com/csi_vesit/?hl=en"><i id="social-in" class="fa fa-instagram fa-3x social"></i></a>
+                    <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=csi.vesit@ves.ac.in"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                </div>
+            </div>
+            <div class="col">
+                <h5 style="padding-top: 7px ;">Designed with ❤ by CSI Web team</h5>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets_home/js/script.js"></script>
+
+
+</body>
+
+</html>
+
+<!-- <h2 class="text-center">WHAT THEY SAY</h2>
+    <div class="carousel slide caro" data-ride="carousel"> -->
+
+<!-- Indicators -->
+<!-- <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul> -->
+
+<!-- The slideshow -->
+<!-- <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="" alt="Los Angeles">
+            </div>
+            <div class="carousel-item">
+                <img src="" alt="Chicago">
+            </div>
+            <div class="carousel-item">
+                <img src="" alt="New York">
+            </div>
+        </div> -->
+
+<!-- Left and right controls -->
+<!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+ -->
+
+<!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-9">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.407815482845!2d72.88702481468991!3d19.045799057870855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8add9569a29%3A0xb7ad04bf9a389df7!2sVivekanand%20Education%20Society&#39;s%20Institute%20Of%20Technology!5e0!3m2!1sen!2sin!4v1582478231694!5m2!1sen!2sin"
+                    width="1100" height="480" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="col-3" id="col_reach">
+                <h2 class="animated fadeInRight">Reach US</h2>
+            </div>
+        </div>
+    </div> -->
+
+<!-- <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="section-title">
+                <h2>About</h2>
+                <p>Nantes is a clean, responsive bootstrap template suitable for agencies, design studios, mobile apps or business sites. It uses the best clean SEO practices, and on top of that, it’s fast, simple, and easy to modify. <br><strong>Nantes Is More Than A Theme, It’s A Powerful Design Tool</strong></p>
+            </div>
+        </div>
+    </div> -->
+
+<!-- <div class="container-fluid gtco-testimonials">
+        <div class="container">
+            <h2>What our customers say about us.</h2>
+            <div class="owl-carousel owl-carousel1 owl-theme">
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/customer1.jpg" alt="">
+                        <div class="card-body">
+                            <h5>Lisa Gally <br/>
+                                <span> Project Manager </span></h5>
+                            <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat ” </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/customer2.jpg" alt="">
+                        <div class="card-body">
+                            <h5>Missy Limana<br/>
+                                <span> Project Manager </span></h5>
+                            <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat ” </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/customer3.jpg" alt="">
+                        <div class="card-body">
+                            <h5>Aana Brown<br/>
+                                <span> Project Manager </span></h5>
+                            <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat ” </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="images/customer3.jpg" alt="">
+                        <div class="card-body">
+                            <h5>Aana Brown<br/>
+                                <span> Project Manager </span></h5>
+                            <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat ” </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+<!-- <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h2>OUR MISSION</h2>
+            <P>
+                Remain valley who mrs uneasy remove wooded him you. Her questions favourite him concealed. We to wife face took he. The taste begin early old why since dried can first. Prepared as or humoured formerly. Evil mrs true get post. Express village evening
+                prudent my as ye hundred forming. Thoughts she why not directly reserved packages you. Winter an silent favour of am tended mutual.
+            </P>
+        </div>
+    </div> -->
+
+<!-- <div class="jumbotron jumbotron-fluid">
+        <DIV class="row details">
+            <div class="col-sm-4">
+                <div class="card animated fadeInLeft slow ">
+                    <div class="card-body">
+                        <img src="csi_logo.png" alt="csi_logo" class="card-img-top" style="height: 80px; width: 80px;">
+                        <h3 class="cardtitle">perfection</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card animated fadeIn slow">
+                    <div class="card-body">
+                        <img src="csi_logo.png" alt="csi_logo" class="card-img-top" style="height: 80px; width: 80px;">
+                        <h3 class="cardtitle text-center">perfection</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card animated fadeInRight slow">
+                    <div class="card-body">
+                        <img src="csi_logo.png" alt="csi_logo" class="card-img-top" style="height: 80px; width: 80px;">
+                        <h3 class="cardtitle">perfection</h3>
+                    </div>
+                </div>
+            </div>
+
+        </DIV>
+    </div> -->

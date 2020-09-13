@@ -1,0 +1,208 @@
+.btn-secondary {
+    color: #fff !important;
+}
+
+img {
+    width: 100%;
+}
+#particles-js{
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(33,36,50);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+canvas {
+    display:block;
+    background: rgb(33,36,50);
+    position: fixed;
+    z-index: -1;
+}
+
+.logo {
+    width: 80px;
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+.social a {
+    margin-right: 0.4rem;
+}
+
+#showcase {
+    background: url(../img/showcase.jpg) no-repeat top center fixed/cover;
+    position: relative;
+    min-height: 650px;
+    color: #fff;
+    padding-top: 6rem;
+}
+
+#showcase .home-search {
+    min-height: 400px;
+    position: relative;
+    border-radius: 5px;
+}
+
+#showcase .overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.8);
+}
+
+#services {
+    background: url(../img/building.jpg) no-repeat top center fixed/cover;
+    min-height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+#services::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(38, 120, 175, 0.8);
+}
+
+#showcase-inner {
+    background: url(../img/building.jpg) no-repeat top center fixed/cover;
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+}
+
+#showcase-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(38, 120, 175, 0.8);
+}
+
+#showcase-inner.showcase-search {
+    min-height: 270px;
+}
+
+#work {
+    padding: 6rem 0;
+}
+
+.listing-preview a {
+    position: relative;
+    z-index: -1;
+}
+
+@media (max-width: 991px) {
+    #showcase {
+        padding-top: 4rem;
+    }
+    #showcase h1 {
+        font-size: 40px;
+    }
+    .hide-md-down {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #showcase {
+        padding-top: 3rem;
+    }
+    #showcase h1 {
+        font-size: 40px;
+    }
+    #showcase p {
+        display: none;
+    }
+    #top-bar {
+        text-align: center;
+    }
+    #top-bar .social {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 576px) {
+    #showcase h1 {
+        font-size: 30px;
+    }
+    #showcase-inner h1 {
+        font-size: 40px;
+    }
+}
+
+.navbar {
+    background: rgb(51, 105, 154);
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68);
+    /* IE */
+    background: rgba(0, 0, 0, 0.78);
+    /* NON-IE */
+}
+
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+
+/*
+ Multicoloured Hover Variations
+*/
+
+#social-fb:hover {
+    color: #3B5998;
+}
+
+#social-tw:hover {
+    color: #4099FF;
+}
+
+#social-in:hover {
+    color: #e94287;
+}
+
+#social-em:hover {
+    color: #f39c12;
+}
+
+#footer {
+    /* TO MAKE IT FIXED FOOTER */
+    /* position: fixed; */
+    /* left: 0;
+  bottom: 0; */
+    width: 100%;
+    background-color: rgb(51, 105, 154);
+    text-align: center;
+    z-index: 100;
+}

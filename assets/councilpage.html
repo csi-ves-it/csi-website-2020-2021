@@ -1,0 +1,1375 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSI-VESIT</title>
+    <link rel="icon" type="image/png" href="assets_home/images/csi_logo.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <link rel="stylesheet" href="assets_council/css/style.css" />
+    <link rel="stylesheet" href="assets_home/css/animate.css" />
+    <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:500|BioRhyme|Cairo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="sketch" style="z-index: 0;"></div>
+    <div class="container-fluid" id="heading">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar" style="background-color: rgb(51, 105, 154);">
+            <div class="container-fluid">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <img class="img-fluid" src="assets_home/images/csi_logo.png" alt="logo" style="width: 60px;height: 60px;" usemap="#workmap">
+                    <map name="workmap">
+                <area shape="circle" coords="30,30,30" alt="CSI_logo" href="index.html">
+                </map>
+                    <ul class="navbar-nav" style="margin-left: auto;">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">HOME</a></li>
+                        <li class="nav-item "><a class="nav-link" href="portfolio.html"> WORKSHOPS </a></li>
+                        <li class="nav-item "><a class="nav-link" href="councilpage.html">COUNCIL</a></li>
+                        <li class="nav-item "><a class="nav-link" href="contact.html">REACH US</a></li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-3">
+                            <a class="nav-link" href="register.html">
+                                <i class="fa fa-user-plus"></i> Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid" style=" padding-top: 100px;">
+            <h3 style="text-align: center;margin-bottom: 2.5rem;padding-top:5px;"><u>STAFF INCHARGES</u></h3>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class=" col-md-3 sm-12">
+                    <div class="our-team">
+                        <div class="picture">
+                            <img class="img-fluid" src="assets_council/img/mona_ma'am.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name" style="font-size: 25px;">Mrs. Mona Deshmukh</h3>
+
+                        </div>
+                        <ul class="social">
+
+                            <li>
+                                <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mona.deshmukh@ves.ac.in" class="fa fa-google"></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class=" col-md-3 sm-12">
+                    <div class="our-team">
+                        <div class="picture">
+                            <img class="img-fluid" src="assets_council/img/charusheela.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name" style="font-size: 25px;">Mrs.Charusheela Nehete</h3>
+
+                        </div>
+                        <ul class="social">
+
+
+                            <li>
+                                <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=charusheela.nehete@ves.ac.in" class="fa fa-google"></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Council -->
+        <!-- <div style="padding-top: 20px;"></div> -->
+        <div id="myCarousel" class="carousel slide carousel-slide" data-ride="carousel" style="background-color: lightblue;border-radius: 20px;margin: 30px;">
+            <div class="controls-top" style="text-align: center;font-size: 50px; padding-top: 40px;">
+                <a class="btn-floating btn-secondry featured_text" href="#myCarousel" data-slide-to="0" style="padding-left: 15px;padding-right: 15px;
+          background: none 0% 0% repeat scroll rgb(14,23,49);color: rgb(255, 255,255);">SE</a>
+                <a class="btn-floating btn-secondry featured_text" href="#myCarousel" data-slide-to="1" style="padding-left: 15px;padding-right: 15px;
+          background: none 0% 0% repeat scroll rgb(14,23,49);color: rgb(255, 255,255);">TE</a>
+                <a class="btn-floating btn-secondry featured_text" href="#myCarousel" data-slide-to="2" style="padding-left: 15px;padding-right: 15px;
+          background: none 0% 0% repeat scroll rgb(14,23,49);color: rgb(255, 255, 255);">BE</a>
+            </div>
+            <div class="carousel-inner">
+
+                <!-- SE Council -->
+                <div class="carousel-item">
+                    <h2 style="padding-top: 20px;">
+                        <center>SE COUNCIL</center>
+                    </h2>
+                    <div class="container" style="width: auto;">
+                        <div class="row">
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Fayzaan_Qureshi.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Fayzaan Qureshi</h3>
+                                        <h4 class="title">Jr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/fayzqureshi00/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.fayzaan.qureshi@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Dhanashree_Chavan.jpeg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Dhanashree Chavan</h3>
+                                        <h4 class="title">Jr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/dhanashreechavan_01/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018dhanashree.chavan@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Anmol_Devnani.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Anmol Devnani</h3>
+                                        <h4 class="title">Jr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/anmoldevnani/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.anmol.devnani@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Shreya_Shah.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Shreya Shah</h3>
+                                        <h4 class="title">Jr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/_shreyaashah_/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.shreya.shah@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/gurudatt_gaonkar.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Gurudatt Gaonkar</h3>
+                                        <h4 class="title">Jr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/gurudattgaonkar/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.gurudatt.gaonkar@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Saloni Ingle.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Saloni Ingle</h3>
+                                        <h4 class="title">Jr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/salu_13_ingle/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.saloni.ingle@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Adarsh_Raut.png">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Adarsh Raut</h3>
+                                        <h4 class="title">Jr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/adarshraut12/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.adarsh.raut@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/ABHISHEK1.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Abhishek Joshi</h3>
+                                        <h4 class="title">Jr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/abhishekj_10/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.abhishek.joshi@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/pooja.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Pooja Prasad</h3>
+                                        <h4 class="title">Jr.Public Relations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/not.your.goalsssss/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.pooja.prasad@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Tania.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Tania Mahata</h3>
+                                        <h4 class="title">Jr.Public Relations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/tania_mahata/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2019tania.mahata@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Tanvi .jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Tanvi Shetty</h3>
+                                        <h4 class="title">Jr.Public Relations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/tanvvv/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.tanvi.shetty@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Yash.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Yash Wadhwani</h3>
+                                        <h4 class="title">Jr.Public Relations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/yashwadhwani08/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.yash.wadhwani@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Vedant Sawant.jpeg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Vedant Sawant</h3>
+                                        <h4 class="title">Jr.Technical Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/vedant_777/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.vedant.sawant@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Swapnil_Gore.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Swapnil Gore</h3>
+                                        <h4 class="title">Jr.Technical Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="#" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018swapnil.gore@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Etisha Mathurvaishya.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Etisha Mathurvaishya</h3>
+                                        <h4 class="title">Jr.Technical Officer</h4>
+                                    </div>
+
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/eti_mathur/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.etisha.mathurvaishya@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Adarsh.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Adarsh Sawant</h3>
+                                        <h4 class="title">Jr.Technical Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/adarsh.sawant.33/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2019adarsh.sawant@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Saurav_Telge.jpeg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Saurav Telge</h3>
+                                        <h4 class="title">Jr.Web Editor</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/click_it_bro_/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.saurav.telge@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/SherAli_Shaikh.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">SherAli Shaikh</h3>
+                                        <h4 class="title">Jr.Web Editor</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/msali_z_716/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.sherali.shaikh@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Sachin Mishra.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Sachin Mishra</h3>
+                                        <h4 class="title">Jr.Web Editor</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="#" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2019sachin.mishra@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Maitraiyi.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Maitraiyi Dandekar</h3>
+                                        <h4 class="title">Jr.Editor</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/mddicted_13/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.maitraiyi.dandekar@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/SE/Namrata Deb.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Namrata Deb</h3>
+                                        <h4 class="title">Jr.Editor</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/namrata_deb1/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018.namrata.deb@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TE Council -->
+                <div class=" carousel-item">
+                    <h2>
+                        <center>TE COUNCIL</center>
+                    </h2>
+                    <div class="container" style="width: auto;">
+                        <div class="row">
+                            <div class=" col-md-3 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/Apoorva.jpeg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Apoorva Sudheesh</h3>
+                                        <h4 class="title">Co-Chairperson</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/_apoorva_7/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.apoorva.sudheesh@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-3 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/jatin.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Jatin Bhagchandani</h3>
+                                        <h4 class="title">Operations-Secretary</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/jatin_bhagchandani/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.jatin.bhagchandani@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-3 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/Rithika.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Rithika Ranadive</h3>
+                                        <h4 class="title">Managing Secretary</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/rithika04/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.rithika.ranadive@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-3 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/Yash_Diwan.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Yash Diwan</h3>
+                                        <h4 class="title">Jr.Treasurer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/_yash_diwan_/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.yash.diwan@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/AtharvaDate.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Atharva Date</h3>
+                                        <h4 class="title">Sr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/athu_date/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.atharva.date@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/Kunal.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Kunal Chugriya</h3>
+                                        <h4 class="title">Sr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/kc58625/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.kunal.chugriya@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/Meghana.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Meghana Athankar</h3>
+                                        <h4 class="title">Sr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/the__duff15/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.meghana.athankar@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/AtharvaNadkarni.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Atharva Nadkarni</h3>
+                                        <h4 class="title">Sr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/atharva_n4/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.atharva.nadkarni@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/VarunRochwani.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Varun Rochwani</h3>
+                                        <h4 class="title">Sr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/rochwanivarun/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.varun.rochwani@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/Nitesh Janyani.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Nitesh Janyani</h3>
+                                        <h4 class="title">Sr.Operations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/nitesh_janyani/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.nitesh.janyani@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/Saloni Shedge.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Saloni Shedge</h3>
+                                        <h4 class="title">Sr.Public Relations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/saloniishedge/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.saloni.shedge@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/Simran Sahetia.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Simran Sahetia</h3>
+                                        <h4 class="title">Sr.Public Relations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/simran.sahetia/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.simran.sahetia@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/MeetaliDulera.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Meetali Dulera</h3>
+                                        <h4 class="title">Sr.Public Relations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/meetalidulera/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.meetali.dulera@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/Vrudhi.png">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Vrudhi Israni </h3>
+                                        <h4 class="title">Sr.Public Relations Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/vrudhi2799/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.vrudhi.israni@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/sujitkumar_singh.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Sujitkumar Singh</h3>
+                                        <h4 class="title">Sr.Technical Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="#" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.sujitkumar.singh@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/Tina_Chandwani.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Tina Chandwani</h3>
+                                        <h4 class="title">Sr.Technical Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/tina_chandwani/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.tina.chandwani@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-3 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/anish.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Anish Chhabria</h3>
+                                        <h4 class="title">Sr.Technical Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/chhabria_anish/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.anish.chhabria@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-3 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/aishwarya.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Aishwarya Sahoo</h3>
+                                        <h4 class="title">Sr.Technical Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/aishwarya.sahooo/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.aishwarya.sahoo@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-3 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/abhay.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Abhay Tiwari</h3>
+                                        <h4 class="title">Sr.Technical Officer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/i_abhay_t/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.abhay.tiwari@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-3 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/TE/Rahul T.png">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Rahul Tejwani</h3>
+                                        <h4 class="title">Sr.Editor</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/r_a_h_u_l_1309/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2017.rahul.tejwani@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BE COUNCIL -->
+                <div class="carousel-item active">
+                    <h2>
+                        <center>BE COUNCIL</center>
+                    </h2>
+                    <div class="container" style="width: auto;">
+                        <div class="row">
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Soham-Chairperson .jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Soham Sapkal</h3>
+                                        <h4 class="title">Chairperson</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/soham.sapkal.17/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2016.soham.sapkal@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Tarun-SeniorSecretary.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Tarun Dadlani</h3>
+                                        <h4 class="title">Sr.Secretary</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/tarun_dadlani/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2016.tarun.dadlani@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Ajay-Sr.Treasurer.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Ajay More</h3>
+                                        <h4 class="title">Sr.Treasurer</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/ajay0000007/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2016.ajay.more@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Ariscia.jpeg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Ariscia Mendes</h3>
+                                        <h4 class="title">Executive Committee</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/ariscia_mendes35/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2016.ariscia.mendes@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/ashutosh.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Ashutosh Matai</h3>
+                                        <h4 class="title">Executive Committee</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/mataiashutosh/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2016.ashutosh.matai@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Pramod.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Pramod Choudhary</h3>
+                                        <h4 class="title">Executive Committee</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/pramod_o6/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2016.pramod.choudhary@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Naman Varyomalani.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Naman Varyomalani</h3>
+                                        <h4 class="title">Executive Committee</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/varyomalani/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2016.naman.varyomalani@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Raj.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Raj Shetye</h3>
+                                        <h4 class="title">Executive Committee</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/_shivasbuff_/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018raj.shetye@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Rohit Pandey.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Rohit Pandey</h3>
+                                        <h4 class="title">Executive Committee</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/striderx7/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2018rohit.pandey@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Aditya_Mane.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Aditya Mane</h3>
+                                        <h4 class="title">Executive Committee</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/the_unsocial_socialist/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2016.aditya.mane@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Jairaj Khushalani.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Jairaj Khushalani</h3>
+                                        <h4 class="title">Executive Committee</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/jairajkhushalani/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2016.jairaj.khushalani@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Abdus_Samad.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Abdus Shaikh</h3>
+                                        <h4 class="title">Executive Committee</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/milk_sha1kh/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2016.abdus.shaikh@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-2"></div>
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Richa Jaisinghani.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Richa Jaisinghani</h3>
+                                        <h4 class="title">Executive Committee</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/singhricha_98/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2016.richa.jaisinghani@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-4 sm-12">
+                                <div class="our-team">
+                                    <div class="picture">
+                                        <img class="img-fluid" src="assets_council/img/BE/Stevert.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="name">Stevert Lobo</h3>
+                                        <h4 class="title">Executive Committee</h4>
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="https://www.instagram.com/stevert_lobo/" class="fa fa-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=2016.stevert.lobo@ves.ac.in" class="fa fa-google"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <div class="col">
+                    <p class="lead" style="padding-top: 7px ;"><i class="fa fa-copyright"></i>CSI-VESIT 2020</p>
+                </div>
+                <div class="col">
+                    <div class="text-center center-block">
+
+                        <a href="https://www.facebook.com/csivesit/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                        <a href="https://twitter.com/csi_vesit?lang=en"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                        <a href="https://www.instagram.com/csi_vesit/?hl=en"><i id="social-in" class="fa fa-instagram fa-3x social"></i></a>
+                        <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=csi.vesit@ves.ac.in"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <p style="padding-top: 7px ;">Designed with ❤ by CSI Web team</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets_council/js/script.js"></script>
+</body>
+
+</html>
