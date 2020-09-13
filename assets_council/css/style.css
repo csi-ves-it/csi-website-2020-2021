@@ -280,12 +280,10 @@ img {
     /* left: 0;
   bottom: 0; */
     /* width: 100%; */
+    width: 100%;
     background-color: rgb(51, 105, 154);
     text-align: center;
     z-index: 100;
-    position: fixed;
-    bottom: 0;
-    left: 0;
 }
 
 #social-fb:hover {
