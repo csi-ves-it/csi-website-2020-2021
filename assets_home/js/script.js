@@ -23,6 +23,10 @@ function draw() {
 
 }
 
+function windowResized() {
+    resizeCanvas(windowWidth-17, windowHeight);
+  }
+
 class Particle {
     constructor() {
             this.pos = createVector(random(width), random(height));
