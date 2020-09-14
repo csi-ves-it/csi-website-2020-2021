@@ -5,7 +5,7 @@ AOS.init({
 const particles = [];
 
 function setup() {
-    var cnv = createCanvas(window.innerWidth - 100, 1000);
+    var cnv = createCanvas(window.innerWidth - 17, 1000);
     // console.log(window.innerWidth, window.innerHeight);
 
 
@@ -26,6 +26,10 @@ function draw() {
     })
 
 }
+
+function windowResized() {
+    resizeCanvas(windowWidth-17, windowHeight);
+  }
 
 class Particle {
     constructor() {
