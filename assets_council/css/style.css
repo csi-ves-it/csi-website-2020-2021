@@ -275,16 +275,18 @@ img {
     display: block;
 }
 
+
 #footer {
     /* TO MAKE IT FIXED FOOTER */
     /* position: fixed; */
     /* left: 0;
-  bottom: 0; */
-    /* width: 100%; */
+    bottom: 0; */
     width: 100%;
     background-color: rgb(51, 105, 154);
     text-align: center;
     z-index: 100;
+    padding: 0;
+    margin: 0;
 }
 
 #social-fb:hover {
@@ -317,5 +319,5 @@ img {
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
-    color: black;
 }
+
