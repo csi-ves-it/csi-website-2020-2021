@@ -1,7 +1,7 @@
 const particles = [];
 
 function setup() {
-    var cnv = createCanvas(window.innerWidth - 20, window.innerHeight);
+    var cnv = createCanvas(window.innerWidth , window.innerHeight);
     // console.log(window.innerWidth, window.innerHeight);
 
 
