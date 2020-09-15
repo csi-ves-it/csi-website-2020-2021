@@ -5,7 +5,9 @@ html{
 #heading {
     position: relative;
 }
-
+a {
+    font-family: 'Cairo', sans-serif;
+}
 #sketch {
     position: absolute;
 }

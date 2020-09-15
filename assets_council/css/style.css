@@ -7,6 +7,9 @@
     position: absolute;
 }
 
+a {
+    font-family: 'Cairo', sans-serif;
+}
 .btn-secondary {
     color: #fff !important;
 }
