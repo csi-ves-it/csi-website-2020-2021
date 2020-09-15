@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CSI-VESIT</title>
+        <link rel="icon" type="image/png" href="assets_home/images/csi_logo.png" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+        <link rel="stylesheet" href="assets_home/css/style.css" />
+        <link rel="stylesheet" href="assets_home/css/animate.css" />
+        <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" type="text/css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alegreya:500|BioRhyme|Cairo&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="sketch" style="z-index: 0;"></div>
+        <div class="container-fluid" id="heading">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar" style="background-color: rgb(51, 105, 154);">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mainNav">
+                        <img class="img-fluid" src="assets_home/images/csi_logo.png" alt="logo" style="width: 60px;height: 60px;" usemap="#workmap">
+                        <map name="workmap">
+                            <area shape="circle" coords="30,30,30" alt="CSI_logo" href="index.html">
+                        </map>
+                        <ul class="navbar-nav" style="margin-left: auto;margin-right: auto;">
+                            <li class="nav-item "><a class="nav-link" href="index.html">HOME</a></li>
+                            <li class="nav-item active "><a class="nav-link" href="portfolio.html"> WORKSHOPS </a></li>
+                            <li class="nav-item  "><a class="nav-link" href="councilpage.html">COUNCIL</a></li>
+                            <li class="nav-item "><a class="nav-link" href="contact.html">REACH US</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+             <!--==========================
+                Portfolio Section
+                ============================-->
+            <section id="portfolio" class="section-bg">
+                <div class="container-fluid" style="background:url(assets_portfolio/try3.jpg);">
+
+                    <header class="section-header">
+                        <h3 class="section-title">Our Portfolio</h3>
+                    </header>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul id="portfolio-flters">
+                                <li data-filter="*" class="filter-active">All</li>
+                                <li data-filter=".filter-workshop">Workshop</li>
+                                <li data-filter=".filter-incollab">In Collaboration</li>
+                                <li data-filter=".filter-events">Events</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row portfolio-container">
+                        <!-- SHERLOCK WATSON -->
+                        <div class=" col-lg-4 col-md-6 portfolio-item filter-events wow fadeInUp "
+                            style="margin-bottom: 40px;">
+                            <div class="portfolio-wrap">
+                                <figure>
+                                    <div class="card" style="width: fit-content;height: fit-content;">
+                                        <img class="card-img-top" src="assets_portfolio/img/SHERNEW.jpg"
+                                            alt="Card image cap" data-toggle="modal" data-target="#myModal1"></img>
+                                        <div class="card-body">
+                                            <p class="card-text"
+                                                style="text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: bold;">
+                                                SHERLOCK WATSON</p>
+                                            <ul class="list-group list-group-flush" style="font-size: smaller;">
+                                                <li class="list-group-item " style="background: bisque;color: black;">
+                                                    <i class="fa fa-calendar" aria-hidden="true"></i> CONDUCTED ON
+                                                    <span class="float-right">27/09/2019</span>
+                                                </li>
+                                                <li class="list-group-item " style="background: salmon;color: black;">
+                                                    <i class="fa fa-map-marker" aria-hidden="true"></i> LABS
+                                                    <span class="float-right">301,302</span>
+                                                </li>
+                                                <li class="list-group-item " style="background: lightskyblue;color: black;font-size: 12px;">
+                                                    <i class="fa fa-angle-double-right" ></i> The second event that CSI-VESIT organised was Sherlock and
+                                                    Watson.
+                                                    This event not only tested the coding skills of the participants
+                                                    but also the
+                                                    mental connection and coordination with their team partner.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="myModal1" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <!-- Wrapper for slides -->
+                                        <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100 k1" src="assets_listing/img/SHERLOCK/1.jpg"
+                                                        alt="First slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100 k1" src="assets_listing/img/SHERLOCK/3.jpg"
+                                                        alt="Second slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100 k1" src="assets_listing/img/SHERLOCK/4.jpg"
+                                                        alt="Third slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100 k1" src="assets_listing/img/SHERLOCK/sherlockwin.jpg"
+                                                        alt="Fourth slide">
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button"
+                                                data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button"
+                                                data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- AMAZING RACE -->
+                        <div class=" col-lg-4 col-md-6 portfolio-item filter-events wow fadeInUp "
+                            style="margin-bottom: 40px;">
+                            <div class="portfolio-wrap">
+                                <figure>
+                                    <div class="card" style="width: fit-content;height: fit-content;">
+                                        <img class="card-img-top" src="assets_portfolio/img/AMAZNEW.jpg"
+                                            alt="Card image cap" data-toggle="modal" data-target="#myModal2">
+                                        </img>
+                                        <div class="card-body">
+                                            <p class="card-text"
+                                                style="text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: bold;">
+                                                THE AMAZING RACE</p>
+                                            <ul class="list-group list-group-flush" style="font-size: smaller;">
+                                                <li class="list-group-item " style="background: bisque;color: black;">
+                                                    <i class="fa fa-calendar" aria-hidden="true"></i> CONDUCTED ON
+                                                    <span class="float-right">27/09/2019</span>
+                                                </li>
+                                                <li class="list-group-item " style="background: salmon;color: black;">
+                                                    <i class="fa fa-map-marker" aria-hidden="true"></i> LABS
+                                                    <span class="float-right">COLLEGE PREMISES</span>
+                                                </li>
+                                                <li class="list-group-item " style="background: lightskyblue;color: black;font-size: 12px;">
+                                                    <i class="fa fa-angle-double-right" ></i>  A crowd favourite, and a mega event of PRAXIS’19 in
+                                                    collaboration with CSI-VESIT,
+                                                    ‘THE AMAZING RACE ‘ kicked off on 27th September at 10:30 near
+                                                    the Vivekanand Statue.
+                                                    After last years' success, one of the most awaited events this
+                                                    year
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="myModal2" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <!-- Wrapper for slides -->
+                                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100 k1" src="assets_listing/img/AMAZERACE/1.jpg"
+                                                        alt="First slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100 k1" src="assets_listing/img/AMAZERACE/4.jpg"
+                                                        alt="Second slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100 k1" src="assets_listing/img/AMAZERACE/5.jpg"
+                                                        alt="Third slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100 k1" src="assets_listing/img/AMAZERACE/amazwin.jpg"
+                                                        alt="Fourth slide">
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button"
+                                                data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button"
+                                                data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

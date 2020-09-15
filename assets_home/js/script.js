@@ -24,7 +24,7 @@ function draw() {
 }
 
 function windowResized() {
-    resizeCanvas(windowWidth-17, windowHeight);
+    resizeCanvas(windowWidth, windowHeight);
   }
 
 class Particle {
