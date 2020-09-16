@@ -180,7 +180,7 @@ img {
 
 .our-team .picture::before {
     content: "";
-    width: 150px;
+    width: 200px;
     height: 0;
     border-radius: 50%;
     
@@ -199,7 +199,7 @@ img {
 
 .our-team .picture::after {
     content: "picture";
-    width: 150px;
+    width: 200px;
     height: 100%;
     border-radius: 100%;
     
@@ -210,7 +210,7 @@ img {
 }
 
 .our-team .picture img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border-radius: 100%;
     transform: scale(1);
