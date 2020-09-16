@@ -218,7 +218,7 @@ img {
 }
 
 .our-team:hover .picture img {
-    box-shadow: 0 0 0 14px #1369ce;
+    box-shadow: 0 0 0 14px #f7f5ec;
     transform: scale(.95);
 }
 
