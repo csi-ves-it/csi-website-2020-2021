@@ -183,7 +183,7 @@ img {
     width: 200px;
     height: 0;
     border-radius: 50%;
-    
+    background: rgb(51, 105, 154);
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -202,7 +202,7 @@ img {
     width: 200px;
     height: 100%;
     border-radius: 100%;
-    
+    background: rgb(51, 105, 154);
     position: absolute;
     top: 0;
     left: 0;
