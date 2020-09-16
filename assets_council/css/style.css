@@ -138,6 +138,7 @@ img {
     #top-bar .social {
         text-align: center !important;
     }
+    
 }
 
 @media only screen and (max-width: 601px) {
@@ -150,6 +151,7 @@ img {
     #myCarousel {
         padding-bottom: 150px;
     }
+
 }
 
 .our-team {
@@ -288,8 +290,7 @@ img {
     background-color: rgb(51, 105, 154);
     text-align: center;
     z-index: 100;
-    padding: 0;
-    margin: 0;
+   
 }
 
 #social-fb:hover {
@@ -322,4 +323,5 @@ img {
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
+    color: black;
 }
