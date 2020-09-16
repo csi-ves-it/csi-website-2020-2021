@@ -20,14 +20,14 @@
     
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar" style="background-color: rgb(51, 105, 154);">
             <div class="container-fluid">
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <button class="navbar-toggler" data-toggle="collapse" onclick="document.getElementById('myLogo').style.display = 'inline-block'" on data-target="#mainNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <img class="img-fluid" src="assets_home/images/csi_logo.png" alt="logo" style="width: 60px;height: 60px;display: inline-block;" usemap="#workmap">
+                <img class="img-fluid" src="assets_home/images/csi_logo.png" alt="logo" id="myLogo" style="width: 60px;height: 60px;display: none;" usemap="#workmap">
                 <div class="collapse navbar-collapse" id="mainNav">
                     
                     <map name="workmap">
-                <area shape="circle" coords="30,30,30" alt="CSI_logo" href="index.html">
+                        <area shape="circle" coords="30,30,30" alt="CSI_logo" href="index.html">
                 </map>
                     <ul class="navbar-nav" style="margin-left: auto;margin-right: auto;">
                         <li class="nav-item "><a class="nav-link" href="index.html">HOME</a></li>
@@ -37,6 +37,7 @@
                     </ul>
 
                    
+                    
                 </div>
             </div>
         </nav>
@@ -48,7 +49,7 @@
                 <div class=" col-md-3 sm-12">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" alt="Mrs. Mona Deshmukh" src="assets_council/img/mona_ma'am.jpg">
+                            <img class="img-fluid" src="assets_council/img/mona_ma'am.jpg">
                         </div>
                         <div class="team-content">
                             <h3 class="name" style="font-size: 20px;">Mrs. Mona Deshmukh</h3>
@@ -67,7 +68,7 @@
                 <div class=" col-md-3 sm-12">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid"  src="assets_council/img/charusheela.jpg">
+                            <img class="img-fluid" src="assets_council/img/charusheela.jpg">
                         </div>
                         <div class="team-content">
                             <h3 class="name" style="font-size: 20px;">Mrs. Charusheela Nehete</h3>
@@ -109,7 +110,7 @@
                             <div class=" col-md-4 sm-12">
                                 <div class="our-team">
                                     <div class="picture">
-                                        <img class="img-fluid" alt="Fayzaan Qureshi" src="assets_council/img/SE/Fayzaan_Qureshi.jpg">
+                                        <img class="img-fluid" src="assets_council/img/SE/Fayzaan_Qureshi.jpg">
                                     </div>
                                     <div class="team-content">
                                         <h3 class="name">Fayzaan Qureshi</h3>
@@ -330,7 +331,7 @@
                             <div class=" col-md-4 sm-12">
                                 <div class="our-team">
                                     <div class="picture">
-                                        <img class="img-fluid" src="assets_council/img/SE/Tanvi .jpg">
+                                        <img class="img-fluid" src="assets_council/img/SE/Tanvi .JPG">
                                     </div>
                                     <div class="team-content">
                                         <h3 class="name">Tanvi Shetty</h3>
@@ -577,7 +578,7 @@
 
                 <!-- TE Council -->
                 <div class=" carousel-item">
-                    <h2>
+                    <h2 style="padding-top: 20px;">
                         <center>TE COUNCIL</center>
                     </h2>
                     <div class="container" style="width: auto;">
@@ -610,7 +611,7 @@
                                     </div>
                                     <div class="team-content">
                                         <h3 class="name">Jatin Bhagchandani</h3>
-                                        <h4 class="title">Operations-Secretary</h4>
+                                        <h4 class="title">Operations Secretary</h4>
                                     </div>
                                     <ul class="social">
                                         <li>
@@ -997,7 +998,7 @@
                             <div class=" col-md-3 sm-12">
                                 <div class="our-team">
                                     <div class="picture">
-                                        <img class="img-fluid" src="assets_council/img/TE/Rahul T.png">
+                                        <img class="img-fluid" src="assets_council/img/TE/Rahul T.PNG">
                                     </div>
                                     <div class="team-content">
                                         <h3 class="name">Rahul Tejwani</h3>
@@ -1025,7 +1026,7 @@
 
                 <!-- BE COUNCIL -->
                 <div class="carousel-item active">
-                    <h2>
+                    <h2 style="padding-top: 20px;">
                         <center>BE COUNCIL</center>
                     </h2>
                     <div class="container" style="width: auto;">
@@ -1078,7 +1079,7 @@
                             <div class=" col-md-4 sm-12">
                                 <div class="our-team">
                                     <div class="picture">
-                                        <img class="img-fluid" src="assets_council/img/BE/Ajay-Sr.Treasurer.jpg">
+                                        <img class="img-fluid" src="assets_council/img/BE/Ajay-Sr.Treasurer.JPG">
                                     </div>
                                     <div class="team-content">
                                         <h3 class="name">Ajay More</h3>
@@ -1336,29 +1337,27 @@
                 </div>
             </div>
         </div>
-
+    </div>
         <!-- Footer -->
-        <div class="container-fluid" id="footer" style="position: absolute;">
-            <div class="row" style="margin-right: 0px;">
+        <div class="container-fluid" id="footer" >
+            <div class="row" style="margin-right: 0px !important;" >
                 <div class="col">
                     <p class="lead" style="padding-top: 7px ;"><i class="fa fa-copyright"></i>CSI-VESIT 2020</p>
                 </div>
                 <div class="col">
                     <div class="text-center center-block">
 
-                        <a href="https://www.facebook.com/csivesit/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-                        <a href="https://twitter.com/csi_vesit?lang=en"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
                         <a href="https://www.instagram.com/csi_vesit/?hl=en"><i id="social-in" class="fa fa-instagram fa-3x social"></i></a>
                         <a href=" http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=csi.vesit@ves.ac.in"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                        <a href="https://twitter.com/csi_vesit?lang=en"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                        <a href="https://www.facebook.com/csivesit/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
                     </div>
                 </div>
                 <div class="col">
-                    <p style="padding-top: 7px ;">Designed with <i class="fa fa-heart" style="color: dodgerblue;"></i> by CSI Web team</p>
+                    <p style="padding-top: 7px ;">Designed with <i class="fa fa-heart" style="color:dodgerblue;"></i> by CSI Web team</p>
                 </div>
             </div>
         </div>
-    
-
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
