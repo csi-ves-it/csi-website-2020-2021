@@ -426,6 +426,8 @@ h6 {
     background-color: rgb(51, 105, 154);
     text-align: center;
     z-index: 100;
+    font-family: 'Cairo', Sans-Serif;
+    font-weight: 700;
 }
 
 .navbar {
