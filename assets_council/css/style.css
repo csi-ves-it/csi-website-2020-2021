@@ -27,6 +27,7 @@ img {
     -o-transition: all 0.6s ease-out;
     -ms-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
+    font-family: 'Cairo', Sans-Serif;
 }
 
 .navbar.scrolled {
