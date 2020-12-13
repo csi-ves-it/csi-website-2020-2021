@@ -1,14 +1,23 @@
+$(function(){ // this replaces document.ready
+  $(window).on("load", function(){
+    $('#loader').fadeOut('slow', function() {
+        $('#loader-wrapper').fadeOut("slow");
+      $(this).remove();
+    });
+  });
+});
+
 (function($) {
     "use strict";
 
     // Preloader
-    $(window).on('load', function() {
-        if ($('#preloader').length) {
-            $('#preloader').delay(100).fadeOut('slow', function() {
-                $(this).remove();
-            });
-        }
-    });
+    // $(window).on('load', function() {
+    //     if ($('#preloader').length) {
+    //         $('#preloader').delay(100).fadeOut('slow', function() {
+    //             $(this).remove();
+    //         });
+    //     }
+    // });
 
     // Back to top button
     $(window).scroll(function() {
@@ -223,6 +232,5 @@ if ($('.navbar').length > 0) {
     $(window).on("scroll load resize", function() {
         checkScroll();
     });
-}
+};
 
-;
