@@ -1,3 +1,12 @@
+$(function(){ // this replaces document.ready
+  $(window).on("load", function(){
+    $('#loader').fadeOut('slow', function() {
+        $('#loader-wrapper').fadeOut("slow");
+      $(this).remove();
+    });
+  });
+});
+
 AOS.init({
     duration: 1200,
 })

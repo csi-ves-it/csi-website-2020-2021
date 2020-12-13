@@ -1,3 +1,12 @@
+$(function(){ // this replaces document.ready
+  $(window).on("load", function(){
+    $('#loader').fadeOut('slow', function() {
+        $('#loader-wrapper').fadeOut("slow");
+      $(this).remove();
+    });
+  });
+});
+
 const particles = [];
 
 function setup() {
@@ -83,3 +92,4 @@ if ($('.navbar').length > 0) {
         checkScroll();
     });
 }
+
