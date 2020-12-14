@@ -194,7 +194,7 @@ img {
 }
 
 .our-team .picture::after {
-    content: url("assets_council/img/human1.jpeg");
+    content: url(assets_council/img/human1.jpeg);
     width: 100%;
     height: 100%;
     border-radius: 100%;
