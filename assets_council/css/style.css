@@ -179,7 +179,7 @@ img {
     width: 100%;
     height: 0;
     border-radius: 50%;
-    background-color: #1369ce;
+    background-image:url('assets_council/img/human1.jpeg');
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -194,11 +194,11 @@ img {
 }
 
 .our-team .picture::after {
-    content: url(assets_council/img/human1.jpeg);
+    
     width: 100%;
     height: 100%;
     border-radius: 100%;
-    background-color: #1369ce;
+    background-image:url('assets_council/img/human1.jpeg');
     position: absolute;
     top: 0;
     left: 0;
