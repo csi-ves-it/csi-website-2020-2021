@@ -1,6 +1,6 @@
 # Official website of CSI-VESIT💻
 
-Check the website here : https://csivesit.in/
+Check the website here : [https://csivesit.in/](https://www.csivesit.org/)
 
 Created by Website team of CSI-VESIT council for the academic year 2020-2021.
 
